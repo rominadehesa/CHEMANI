@@ -28,7 +28,7 @@ body {
 
 body > nav, #menu-nav{
     background: #5C3B1E;
-    padding: 15px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +47,11 @@ body > nav ul{
     justify-content: center;
     align-items: center;
     gap: 48px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #F5E3C3;
 }
 
 #menu-nav ul {
@@ -80,7 +85,6 @@ body > nav ul{
 
 #btn-secondary {
     background-color: #5C3B1E;
-    color: #F5E3C3;
     padding-top: 12px;
     padding-right: 24px;
     padding-bottom: 12px;
@@ -94,6 +98,16 @@ body > nav ul{
 
 #btn-secondary:hover {
     background-color: #6f4f33;
+}
+
+#btn-primary a {
+    text-decoration: none !important;
+    color: #5C3B1E !important;
+}
+
+#btn-secondary a {
+    text-decoration: none !important;
+    color: #F5E3C3 !important;
 }
 
 body > header {
@@ -130,6 +144,10 @@ body > header {
 
 #hero div p{
     width: 80%;
+}
+
+.margin-top {
+    margin-top: 5vh;
 }
 
 @keyframes heroimg {
@@ -296,7 +314,7 @@ footer ul {
     list-style: none;
 }
 
-footer ul li {
+footer ul li{
     font-family: Quicksand;
     font-weight: 400;
     font-size: 14px;
@@ -306,6 +324,9 @@ footer ul li {
     padding-bottom: 8px;
 }
 
+footer ul li a{
+    text-decoration: none;
+}
 .section-bottom {
     text-align: center;
     display: block;
@@ -487,8 +508,14 @@ main section {
     #hero p {
         font-size: 20px;
     }
+
+    #menu-nav a {
+        text-decoration: none;
+        color: #F5E3C3;
+    }
 }
 
-footer a {
+footer nav a, footer section a {
     text-decoration: none;
+    color: #F5E3C3;
 }
