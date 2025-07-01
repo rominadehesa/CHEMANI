@@ -114,7 +114,7 @@ body > header {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url('img/slider1.png');
+    background-image: url('img/slider1.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,53 +152,53 @@ body > header {
 
 @keyframes heroimg {
     0% {
-        background-image: url('img/slider1.png');
+        background-image: url('img/slider1.webp');
     }
     19% {
-        background-image: url('img/slider1.png');
+        background-image: url('img/slider1.webp');
     }
     20% {
-        background-image: url('img/slider2.png');
+        background-image: url('img/slider2.webp');
     }
     21% {
-         background-image: url('img/slider2.png');
+         background-image: url('img/slider2.webp');
     }
 
     39% {
-         background-image: url('img/slider2.png');
+         background-image: url('img/slider2.webp');
     }
     40% {
-        background-image: url('img/slider3.png');
+        background-image: url('img/slider3.webp');
     }
     41% {
-        background-image: url('img/slider3.png');
+        background-image: url('img/slider3.webp');
     }
 
     59% {
-        background-image: url('img/slider3.png');
+        background-image: url('img/slider3.webp');
     }
     60% {
-        background-image: url('img/slider4.png');
+        background-image: url('img/slider4.webp');
     }
     61% {
-        background-image: url('img/slider4.png');
+        background-image: url('img/slider4.webp');
     }
 
     79% {
-       background-image: url('img/slider4.png');
+       background-image: url('img/slider4.webp');
     }
     80% {
-        background-image: url('img/slider5.png');
+        background-image: url('img/slider5.webp');
     }
     81% {
-       background-image: url('img/slider5.png');
+       background-image: url('img/slider5.webp');
     }
 
     99% {
-        background-image: url('img/slider5.png');
+        background-image: url('img/slider5.webp');
     }
     100% {
-        background-image: url('img/slider1.png');
+        background-image: url('img/slider1.webp');
     }
 }
 
@@ -255,7 +255,7 @@ body > section div p span{
 }
 
 .banner {
-    background-image: url('img/banner.png');
+    background-image: url('img/banner.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente arriba */
