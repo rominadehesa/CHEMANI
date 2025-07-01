@@ -505,7 +505,14 @@ main section {
         color: #F5E3C3;
     }
 
-    .product-card:link .product-info {
+    .product-card .product-info {
+        bottom: -100%;
+        transition: bottom 0.3s ease;
+        position: absolute;
+    }
+
+    .product-card:hover .product-info,
+    .product-card.active .product-info {
         bottom: 0;
     }
 }
