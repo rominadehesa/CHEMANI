@@ -549,3 +549,10 @@ footer nav a, footer section a {
     text-decoration: none;
     color: #F5E3C3;
 }
+
+.a-pehuen {
+    text-decoration: none;
+    color: #F5E3C3;
+    font-weight: 600;
+    font-size: 14px;
+}
