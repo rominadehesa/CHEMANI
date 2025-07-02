@@ -39,6 +39,11 @@ body > nav h2, footer h2 {
     color: #F5E3C3;
 }
 
+body > nav img, footer section img {
+    width: 150px;
+    height: auto;
+}
+
 body > nav ul{
     text-decoration: none;
     list-style: none;
@@ -420,6 +425,13 @@ main section {
   bottom: 0;
 }
 
+.dd {
+    display: block;
+}
+
+.dm {
+    display: none;
+}
 
 
 /*menu hamburhuesa*/
@@ -514,6 +526,22 @@ main section {
     .product-card:hover .product-info,
     .product-card.active .product-info {
         bottom: 0;
+    }
+
+    body > #productos h2 {
+        text-align: start;
+    }
+
+    .dd {
+        display: none;
+    }
+
+    .dm {
+        display: block;
+    }
+
+    .footer-margin {
+        margin-top: 10vh;
     }
 }
 
