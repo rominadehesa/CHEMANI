@@ -171,7 +171,7 @@ body>header {
 }
 
 #hero div p {
-    width: 80%;
+    width: 70%;
 }
 
 .margin-top {
@@ -972,7 +972,7 @@ footer section a {
     padding: 20px;
     background: #FEFAF4;
     border-radius: 0 0 20px 20px;
-    color: #9C6B4A;
+    color:var(--color-primary);
     font-family: Quicksand;
     font-weight: 700;
     font-style: Bold;
@@ -1094,7 +1094,6 @@ footer section a {
         color: #F5E3C3;
     }
 
-    #porquechenute h3,
     #nuestrahistoria h3,
     #trabajemosjuntos h3,
     #productos h3 {
@@ -1102,7 +1101,10 @@ footer section a {
         text-align: start;
     }
 
-    #porquechenute h2,
+    #porquechenute h2 {
+        font-size: 50px;
+    }
+
     #nuestrahistoria h2,
     #trabajemosjuntos h2,
     #productos h2 {
@@ -1143,6 +1145,7 @@ footer section a {
         height: 60vh;
         width: 100%;
         padding: 5vh;
+        margin-top: 4vh;
     }
 
     #recetas .cards-recetas article {
@@ -1241,7 +1244,7 @@ footer section a {
     }
 
     .product-image img {
-        height: 90%;
+        height: 80%;
     }
 
     #recetas .cards-recetas article main {
@@ -1313,7 +1316,7 @@ footer section a {
     }
 
     #hero {
-        padding-top: 20vh;
+        padding-top: 16vh;
     }
 
     #end,
@@ -1322,16 +1325,18 @@ footer section a {
     }
 
     #hero div p {
-        width: 100%;
-        line-height: 170%;
+        width: 80%;
+        line-height: 150%;
     }
 
     .hamburger::before {
         content: "☰";
+        color: var(--color-primary);
     }
 
     .hamburger.active::before {
         content: "✕";
+        color: var(--color-light);
     }
 
     .padding-lr-section {
@@ -1340,6 +1345,16 @@ footer section a {
     }
 
     body > section div p {
-        line-height: 170%;
+        line-height: 150%;
+    }
+
+    .container-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #porquechenute h2, #nuestrahistoria h2, #trabajemosjuntos h2, #recetas h2 {
+        font-size: 50px;
     }
 }
